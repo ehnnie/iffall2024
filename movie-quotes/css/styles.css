@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    color: white;
+
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-family: "westsac", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.subhead {
+    text-align: center;
+    font-family: "transat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#box1 {
+    border: 2px solid;
+    width: 640px;
+    font-size: 18px;
+    border-color: white;
+    padding: 25px;
+
+    font-family: "transat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#box2 {
+    border: 2px solid;
+    width: 640px;
+    font-size: 18px;
+    border-color: white;
+    padding: 25px;
+
+    font-family: "transat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#box3 {
+    border: 2px solid;
+    width: 640px;
+    font-size: 18px;
+    border-color: white;
+    padding: 25px;
+
+    font-family: "transat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+footer {
+    text-align: center;
+    font-family: "transat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+a {
+    color: white;
+}
+
+a:visited {
+    color: rgb(180, 186, 255);
+}
