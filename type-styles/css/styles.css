@@ -1,0 +1,80 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+}
+
+body {
+    margin: 5%;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+h1 {
+    color: rgb(67,86,128);
+    font-size: 25pt;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: rgb(35,38,56);
+    font-size: 16pt;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: rgb(119,212,228);
+    font-size: 0.6rem;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+.styled-font-normal {
+    font-weight: normal;
+}
+
+.styled-font-bold {
+    font-weight: bold;
+}
+
+.styled-font-italic {
+    font-style: italic;
+}
+
+.styled-font-wide {
+    letter-spacing:.25em;
+}
+
+.styled-font-narrow {
+    letter-spacing: -.05em;
+}
+
+.styled-font-underline {
+    text-decoration: underline;
+}
+
+.styled-font-linethrough {
+    text-decoration: line-through;
+}
+
+.styled-font-overline {
+    text-decoration: overline;
+}
+
+.styled-font-uppercase {
+    text-transform: uppercase;
+}
+
+.styled-font-lowercase {
+    text-transform: lowercase;
+}
+
+.styled-font-capitalize {
+    text-transform: capitalize;
+}
