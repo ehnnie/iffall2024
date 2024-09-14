@@ -1,0 +1,38 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+}
+
+body {
+    margin: 5%;
+}
+
+article {
+    margin-top: 0px;
+    margin-bottom:100px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: rgb(67,86,128);
+    font-size: 25pt;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 13pt;
+    margin-bottom:5pt;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
