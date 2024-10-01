@@ -1,0 +1,23 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13pt;
+}
+
+body {
+    margin: 5%;
+}
+
+h1 {
+    color: rgb(67,86,128);
+    font-size: 25pt;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+.full-screen {
+    width: 25%;
+}
