@@ -1,0 +1,33 @@
+html {
+    font-family: "adorn-roman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13pt;
+}
+
+body {
+    margin: 5%;
+}
+
+h1 {
+    color: rgb(67,86,128);
+    font-family: "adorn-condensed-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40pt;
+    line-height: 80px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-bottom: 10px;
+}
+
+.desktop {
+    width: 50%;
+}
+
+.mobile {
+    width: 25%;
+}
