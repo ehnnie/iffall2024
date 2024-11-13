@@ -1,0 +1,226 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "adorn-roman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    padding-top: 235px;
+}
+
+
+
+/* ################# NAVIGATION BAR ################# */
+
+h2{
+    font-family: "mostra-nuova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+    line-height: 20px;
+    padding: 20px 0px;
+}
+
+.navbar {
+    font-size: 20px;
+
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px 0px;
+    position: fixed;
+    width: 100%;
+    transition: .4s;
+    top: 0;
+}
+
+.nav-body{
+    height: 65px;
+    display: flex;
+}
+
+.nav-body li{
+    list-style-type: none;
+    padding: 0px 155px;
+}
+
+.nav-body li a{
+    text-decoration: none;
+    transition: .3s;
+    color: white;
+}
+
+.nav-body li a:hover{
+color: #fff6ce;
+}
+
+.nav-icon{
+    width: 50px;
+    height: auto;
+    padding: 5px 0px;
+}
+
+
+
+/* ################### TITLE ################### */
+
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+}
+
+h1{
+    font-family: "adorn-condensed-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:190px;
+    text-align: center;
+    padding: 90px 0px 0px;
+    line-height: 235px;
+}
+
+.decor{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+    height: auto;
+}
+
+
+
+
+/* ################### CARD BACKS ################## */
+
+.card-backs{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding-top: 300px;
+}
+
+.card-backs img{
+    width: 290px;
+    height: auto;
+}
+
+
+/* ################### INTRODUCTION PARAGRAPH ################## */
+
+h3{
+    font-family: "adorn-condensed-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 315px;
+}
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    padding: 0px 350px 100px;
+    line-height: 40pt;
+}
+
+
+/* ################### MAJOR AND MINOR ACANA CARD FRONTS ################## */
+
+
+.major-minor{
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+    padding: 200px 350px 25px;
+}
+
+.major-minor img{
+    width: 375px;
+    height: auto;
+}
+
+.major-minor-text h3{
+    padding-top: 0px;
+}
+
+.major-minor-text{
+    display: flex;
+    justify-content: center;
+    gap: 370px;
+    padding-bottom: 300px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    padding-bottom: 200px;
+    margin: 0px 450px
+}
+
+.buttons h3{
+    font-family: "mostra-nuova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+
+/* ############ CONTENT AND CONTEXT PAGE ############## */
+
+
+
+.sub-page-section h3{
+    font-family: "adorn-condensed-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sub-page-paragraph h4{
+    font-size: 35px;
+    text-align: center;
+    padding: 100px 350px;
+    line-height: 40pt;
+}
+
+.sub-page-section h4{
+    font-size: 35px;
+    text-align: center;
+    padding: 0px 350px 50px;
+    line-height: 40pt;
+}
+
+h5{
+    font-size: 30px;
+    text-align: left;
+    padding: 0px 350px 50px;
+    line-height: 40pt;
+}
+
+
+
+
+
+.card-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px 100px;
+}
+
+.card-images img{
+    width: 290px;
+    height: auto;
+}
