@@ -1,0 +1,341 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "adorn-roman", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+body{
+    padding-top: 70px;
+}
+
+main{
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    position: relative;
+}
+
+.corner-decoration{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.corner-decoration.upper-left{
+top: -15px;
+left: -15px;
+}
+
+.corner-decoration.upper-right{
+top: -15px;
+right: -15px;    
+}
+
+.corner-decoration.lower-left{
+bottom: -15px;
+left: -15px;
+}
+
+.corner-decoration.lower-right{
+bottom: -15px;
+right: -15px;
+}
+
+/* ################# NAVIGATION BAR ################# */
+
+h2{
+    font-family: "mostra-nuova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:25px;
+    line-height: 20px;
+    padding: 20px 0px;
+}
+
+.navbar {
+    font-size: 20px;
+
+    background: black;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px 0px;
+    position: fixed;
+    width: 100%;
+    transition: .4s;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-body{
+    height: 65px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-body li{
+    list-style-type: none;
+}
+
+.nav-body li a{
+    text-decoration: none;
+    transition: .3s;
+    color: white;
+}
+
+.nav-body li a:hover{
+color: #fff6ce;
+}
+
+.nav-body li a:active{
+    color: #e6d06e;
+}
+
+.nav-icon{
+    width: 50px;
+    height: auto;
+    padding: 5px 0px;
+}
+
+
+
+/* ################### TITLE ################### */
+
+.title{
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+}
+
+h1{
+    font-family: "adorn-condensed-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:135px;
+    text-align: center;
+    padding: 250px 0px 10px;
+    line-height: 130px;
+}
+
+#decor-line{
+    width: 60%;
+    max-width: 760px;
+    height: 5px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+
+/* ################### INTRODUCTION PARAGRAPH ################## */
+
+.introduction{
+    padding-top: 140px;
+}
+
+h3{
+    font-family: "adorn-condensed-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    line-height: 70px;
+    color: black;
+}
+
+h4{
+    font-size: 30px;
+    line-height: 38pt;
+    width: 60%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+/* ################### MAJOR AND MINOR ACANA CARD FRONTS ################## */
+
+
+.major-minor{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 200px 0px 250px;
+    text-align: center;
+    color: black;
+}
+
+.major-minor img{
+    width: 375px;
+    height: auto;
+    max-width: 90%;
+    margin-top: 25px;
+}
+
+.btn{
+    border: 5px solid black;
+    border-radius: 25px;
+    background-color: white;
+    color: black;
+    padding: 10px 30px 0px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn.btn1:active{
+    background-color: #e6d06e;
+    color: black;
+}
+
+.btn1:hover{
+    background-color: #fff6ce;
+    color: black;
+}
+
+.btn.btn2:active{
+    background-color: #e6d06e;
+    color: black;
+}
+
+.btn2:hover{
+    background-color: #fff6ce;
+    color: black;
+}
+
+
+
+/* ############ CONTENT AND CONTEXT PAGE ############## */
+
+
+
+.sub-page-section h3{
+    font-family: "adorn-condensed-sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.sub-page-paragraph h4{
+    font-size: 22px;
+    line-height: 39px;
+    padding-top: 50px;
+    width: 55%;
+    margin: auto;
+    max-width: 1000px;
+}
+
+.sub-page-section h4{
+    font-size: 25px;
+    line-height: 37pt;
+    width: 55%;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 40px;
+}
+
+h5{
+    font-size: 23px;
+    line-height: 34pt;
+    width: 45%;
+    margin: auto;
+    max-width: 1000px;
+    padding-top: 25px;
+}
+
+h6{
+    font-size: 25px;
+    text-align:center;
+}
+
+#decor-line-subsection{
+    width: 60%;
+    max-width: 540px;
+    height: 5px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+
+
+.card-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    justify-content: center;
+    gap: 80px;
+    padding: 50px;
+}
+
+.card-images img{
+    width: 290px;
+    height: auto;
+}
+
+.card-images li{
+    display: block;
+}
+
+
+
+
+
+@media (max-width: 900px) {
+    .major h3{
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .minor h3{
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .sub-page-section h4{
+        font-size: 26px;
+        line-height:38px;
+        width: 70%;
+    }
+
+    .sub-page-section h3 {
+        font-size: 60px;
+    }
+
+    h5{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .sub-page-paragraph h4{
+        font-size: 27px;
+        line-height: 40px;
+        padding-top: 50px;
+        width: 63%;
+        margin: auto;
+        max-width: 1000px;
+    }
+}
+
+
+@media (max-width: 640px) {
+    h1{
+        font-size: 100px;
+    }
+    
+    h4{
+        width:70%;
+        font-size: 20px;
+        line-height: 26pt;
+    }
+}
